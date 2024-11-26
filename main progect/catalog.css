@@ -1,0 +1,685 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #364338;
+}
+
+header {
+    background-color: #2C1F15;
+    width: 1920px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo,
+.Top_menu {
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: -15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Top_menu li {
+    margin-right: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Top_menu a {
+    font-family: monospace;
+    font-style: Bold italic;
+    color: #FDF8B5;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+button {
+    width: 188px;
+    height: 87px;
+    margin-right: 20px;
+}
+
+.btn-input {
+    margin-left: -50px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button_style {
+    width: 122;
+    height: 48;
+    font-size: 40px;
+    background-color: #364338;
+    color: #FDF8B5;
+    font-style: italic;
+}
+
+.social_network {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.source {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+/* блок после шапки */
+
+.block {
+    height: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+.block2-item {
+    position: relative;
+    /* Ваш психолог онлайн Начните психотерапию уже сегодня */
+    position: absolute;
+    width: 710px;
+    height: 104px;
+    left: 0px;
+    top: 82px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #FDF8B5;
+}
+
+.block2-item2 {
+    position: relative;
+    top: 150px;
+    position: absolute;
+    width: 710px;
+    height: 104px;
+    left: -20px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FDF8B5;
+}
+
+.block3-item {
+    position: relative;
+    /* Ваш психолог онлайн Начните психотерапию уже сегодня */
+    position: absolute;
+    width: 710px;
+    height: 104px;
+    left: 1000px;
+    top: 330px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #FDF8B5;
+}
+
+.block3-item2 {
+    position: relative;
+    top: 400px;
+    position: absolute;
+    width: 710px;
+    height: 104px;
+    left: 950px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FDF8B5;
+}
+
+.overlay {
+    position: absolute;
+    top: 3%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.overlay p {
+    margin: 0;
+}
+
+.img-2block {
+    width: 1920px;
+    height: 459px;
+}
+
+.after-other {
+    font-size: 40px;
+    font-style: italic;
+    color: #FDF8B5;
+    text-align: center;
+    width: 1920px;
+    height: 100px;
+    background-color: #17251A;
+}
+
+.after-other p {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.details {
+    display: inline-block;
+    width: 1920px;
+    height: 590px;
+    background-color: #352316;
+}
+
+.boximg {
+    display: inline-block;
+    margin: 62px 94px 96px 104px;
+    background-color: #212D23;
+    width: 496px;
+    height: 432px;
+    top: 845px;
+    left: 104px;
+    gap: 0px;
+    border-radius: 30px;
+    opacity: 0px;
+}
+
+.boximg img {
+    width: 397px;
+    height: 371px;
+    margin: 31px 49px 30px 50px;
+}
+
+.detname {
+    font-style: italic;
+    font-size: 48px;
+    color: #FDF8B5;
+    margin-left: 20px;
+    margin-top: 88px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+}
+
+.dettxt {
+    font-style: italic;
+    display: inline-block;
+    position: absolute;
+    margin-top: 231px;
+    font-size: 40px;
+    color: #FDF8B5;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.btn1 {
+    margin-top: 420px;
+    margin-left: 470px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    position: relative;
+    color: #FDF8B5;
+    /* Rectangle 35 */
+    left: 6px;
+    position: relative;
+    width: 458px;
+    height: 100px;
+    background: #212D23;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.details2 {
+    display: inline-block;
+    width: 1920px;
+    height: 590px;
+    background-color: #364338;
+}
+
+.btn2 {
+    margin: 417px 1217px 45px 191px;
+    left: 6px;
+    position: relative;
+    width: 458px;
+    height: 100px;
+    background: #2C1F15;
+    border-radius: 30px;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    position: relative;
+    color: #FDF8B5;
+}
+
+.dettxt2 {
+    text-align: center;
+    height: 500px;
+    width: 956px;
+    font-style: italic;
+    display: inline-block;
+    position: absolute;
+    margin-top: 231px;
+    font-size: 40px;
+    color: #FDF8B5;
+    left: 194px;
+    text-align: center;
+}
+
+.detname2 {
+    display: inline-block;
+    font-style: italic;
+    font-size: 48px;
+    color: #FDF8B5;
+    left: 850px;
+    margin-top: 91px;
+    height: 200px;
+    position: absolute;
+}
+
+.boximg2 {
+    display: inline-block;
+    position: relative;
+    margin-top: -600px;
+    background-color: #212D23;
+    width: 496px;
+    height: 432px;
+    margin-left: 1305px;
+    border-radius: 30px;
+    opacity: 0px;
+}
+
+.boximg2 img {
+    display: inline-block;
+    position: relative;
+    width: 397px;
+    height: 371px;
+    margin: 31px 49px 132px 50px;
+}
+
+
+/* Пикча ютуба */
+
+.yuotubebg {
+    background-color: #352316;
+    width: 1920px;
+    height: 1078px;
+}
+
+.YouTubepic {
+    display: inline-block;
+    margin-top: 110px;
+    margin-left: 154px;
+    width: 1614px;
+    height: 857px;
+}
+
+
+/* карточки */
+
+.tables {
+    display: flex;
+    flex-direction: column;
+    background-color: #364338;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 59px;
+    margin-top: 236px;
+    text-align: center;
+}
+
+.card {
+    width: 472px;
+    /* Ширина карточки */
+    height: 772px;
+    /* Высота карточки */
+    background-color: #2C1F15;
+    border-radius: 30px;
+}
+
+.card img {
+    margin: 46px;
+    width: 337px;
+    height: 360px;
+    border-radius: 30px;
+}
+
+.card p {
+    margin-bottom: 0px;
+    text-align: center;
+    position: relative;
+    left: 70px;
+    width: 337px;
+    height: 170px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FDF8B5;
+    display: block;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    position: relative;
+    color: #FDF8B5;
+    /* Rectangle 35 */
+    left: 6px;
+    position: relative;
+    width: 458px;
+    height: 100px;
+    background: #2C1F15;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.color {
+    background-color: #212D23;
+}
+
+.btn-second {
+    background-color: #212D23;
+}
+
+.Title-cards {
+    /* Выберите, какая тема вас волнует? */
+    position: absolute;
+    width: 866px;
+    height: 58px;
+    left: 546px;
+    top: 1000px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    text-align: center;
+    color: #FDF8B5;
+}
+
+
+/* Таблица */
+
+.main-tables {
+    display: flex;
+    background-color: #364338;
+    width: 100%;
+    height: 1100px;
+}
+
+.table-header {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: #FDF8B5;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 270px;
+    font-style: italic;
+}
+
+.txt-block {
+    height: 1000px;
+    width: 820px;
+}
+
+.pic-block {
+    display: flex;
+    width: 563px;
+    height: 1000px;
+}
+
+.list {
+    width: 945px;
+    height: 270px;
+}
+
+.circle {
+    display: inline-block;
+    margin-top: 35px;
+    width: 150px;
+    height: 150px;
+    background: #352316;
+    border-radius: 50%;
+    color: #FDF8B5;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 264px;
+}
+
+.number {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.headlist {
+    margin-top: 85px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: 50px;
+    font-size: 40px;
+    font-style: italic;
+    color: #FDF8B5;
+}
+
+.list-txt {
+    margin-top: -40px;
+    display: inline-flex;
+    margin-left: 450px;
+    text-align: center;
+    font-style: italic;
+    color: #FDF8B5;
+    font-size: 26px;
+}
+
+.pic-block img {
+    margin-top: 222px;
+    margin-left: 350px;
+    display: flex;
+    width: 563px;
+    height: 767px;
+}
+
+
+/* qr */
+
+.footer-que {
+    margin-top: 70px;
+    margin-left: 400px;
+    width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+}
+
+.qr {
+    display: inline-block;
+    width: 500px;
+    height: 230px;
+    background-color: #352316;
+}
+
+.qr img {
+    width: 150px;
+    height: 150px;
+    margin: 38px 47px 45px 36px;
+}
+
+.btn-que {
+    color: #FDF8B5;
+    background-color: #364338;
+    position: absolute;
+    margin-top: 60px;
+    margin-right: 100px;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.about {
+    margin-top: 60px;
+    display: inline-block;
+    width: 570px;
+    height: 230px;
+    color: #FDF8B5;
+    line-height: 50px;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.style1 a {
+    margin-left: 55px;
+}
+
+
+/* foother */
+
+.foother {
+    background-color: #352316;
+    width: 1920px;
+    height: 513px;
+}
+
+.left-section {
+    margin-left: 281px;
+    margin-top: 30px;
+    display: inline-block;
+    height: 100%;
+    width: 900px;
+}
+
+.foother-img {
+    display: inline-block;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 120px;
+    padding-right: 5px;
+}
+
+.foother-img img {
+    margin-top: 10px;
+    width: 206px;
+    height: 220px;
+}
+
+.foother-source {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    height: 200px;
+    width: 550px;
+}
+
+.foother-source a {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FDF8B5;
+    padding: 10px;
+}
+
+.foother-source li {
+    color: #FDF8B5;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.foother-txt {
+    margin-left: 90px;
+    margin-top: 50px;
+    text-align: center;
+    color: #FDF8B5;
+    font-size: 30px;
+}
+
+.right-section {
+    display: inline-block;
+    height: 500px;
+    width: 460px;
+}
+
+.btn-foother {
+    font-style: italic;
+    top: -241px;
+    left: 60px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 48px;
+    position: relative;
+    color: #FDF8B5;
+    /* Rectangle 35 */
+    position: relative;
+    width: 400px;
+    height: 75px;
+    background: #212D23;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.right-section a {
+    margin-left: 300px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FDF8B5;
+    padding: 10px;
+}
+
+.right-section .numeric {
+    position: absolute;
+    margin-top: -151px;
+    margin-left: -236px;
+}
+
+.right-section .foother-mail {
+    position: absolute;
+    display: inline-block;
+    margin-left: -263px;
+    margin-top: -100px;
+}
+
+.right-section img {
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.imgpos {
+    position: absolute;
+    left: 1261px;
+    top: 9520px;
+}
